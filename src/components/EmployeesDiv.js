@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import EmployeesTable from "./EmployeesTable";
 import EmployeesSeeds from "../employeeSeeds/employeeSeeds.json";
 import Navbar from "./Navbar";
+import "../styles/_employeesDiv.scss";
+
 
 
 function EmployeesDiv() {

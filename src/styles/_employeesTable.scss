@@ -1,0 +1,14 @@
+@import "_mixins.scss";
+
+.employeesTable {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20vh;
+  margin-bottom: 15vh;
+  background-color: rgb(255, 255, 255, 0.4);
+
+}
+
+.tableHead {
+  font-size: larger;
+}

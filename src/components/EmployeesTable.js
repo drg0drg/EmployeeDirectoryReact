@@ -1,5 +1,6 @@
 import React from "react";
 import Employee from "../components/Employee";
+import "../styles/_employeesTable.scss";
 
 
 function EmployeesTable ({employees}) {
