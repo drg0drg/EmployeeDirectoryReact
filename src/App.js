@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeesTable from "src/components/EmployeesTable.js"; 
+import EmployeesTable from "./components/EmployeesTable"; 
 import logo from './logo.svg';
 import './App.css';
 

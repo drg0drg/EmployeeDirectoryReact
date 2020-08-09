@@ -1,6 +1,8 @@
 import React from "react";
+import Employee from "../components/Employee";
 
-function EmployeesTable () {
+
+function EmployeesTable (employees) {
   return (
     <table className = "employeesTable">
       <thead className = "tableHead">
