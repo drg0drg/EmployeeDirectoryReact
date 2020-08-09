@@ -1,6 +1,8 @@
 body {
 	margin: 0;
   background-color:red;
+  background-image: url(../img/corporate.jpg);
+
 }
 
 .employeesDiv {
@@ -8,7 +10,4 @@ body {
 
 }
 
-.dropdown-item:nth-child(even) {
-	background: #f0f0f0;
-}
 
