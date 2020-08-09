@@ -3,13 +3,15 @@ import React from "react";
 function EmployeesTable () {
   return (
     <table className = "employeesTable">
-      <th className = "tableHead">
-        <td scope="col">Id</td>
-        <td scope="col">Name</td>
-        <td scope="col">Position</td>
-        <td scope="col">email</td>
-        <td scope="col">DOB</td>
-      </th>
+      <thead className = "tableHead">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Position</th>
+          <th scope="col">email</th>
+          <th scope="col">DOB</th>
+        </tr>
+      </thead>
     </table>
   )
 }
