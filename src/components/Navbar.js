@@ -1,7 +1,8 @@
 import React from "react";
 import SearchField from "../components/SearchField";
+import OrderPopUp from "../components/OrderPopUp";
 
-function Navbar({employees, searchUserInput, filterEmployee}) {
+function Navbar({employees, searchUserInput, filterEmployee, orderEmployees}) {
 	return (
 		<div className="search-menu">
 			<div className="search-input">
@@ -11,6 +12,13 @@ function Navbar({employees, searchUserInput, filterEmployee}) {
           filterEmployee={filterEmployee}
 				/>
 			</div>
+      <div className="search-input">
+				<OrderPopUp
+					employees={employees}
+          orderEmployees={orderEmployees}
+				/>
+			</div>
+
 		</div>
 	);
 }

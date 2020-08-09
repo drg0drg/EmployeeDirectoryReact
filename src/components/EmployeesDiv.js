@@ -39,11 +39,15 @@ function EmployeesDiv() {
 	};
 
 
-
-
-	
-
-
+	const orderEmployees = (criteria) => {
+		// sort the employees alphabetically function of criteria
+		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+		const orderedEmployees = employees.sort((a, b) =>
+		// if a[criteria] > b[criteria] then 1 else do -1
+			a[criteria] > b[criteria] ? 1 : -1
+		);
+		setEmployees([...orderedEmployees]);
+	};
 
 	return (
 		<div>
@@ -51,6 +55,7 @@ function EmployeesDiv() {
 				employees={employees}
 				filterEmployee={filterEmployee}
 				searchUserInput={searchUserInput}
+				orderEmployees={orderEmployees}
 			/>
 			<EmployeesTable employees = {employees} />
 		</div>
