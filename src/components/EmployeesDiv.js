@@ -50,7 +50,7 @@ function EmployeesDiv() {
 	};
 
 	return (
-		<div>
+		<div class="employeesDiv">
       <Navbar
 				employees={employees}
 				filterEmployee={filterEmployee}
