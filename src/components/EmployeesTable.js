@@ -19,7 +19,7 @@ function EmployeesTable ({employees}) {
 				{employees.map((employee) => (
 					<Employee
 						id={employee.id}
-						key={employee.id}
+						// key={employee.id}
 						name={employee.name}
 						position={employee.position}
 						email={employee.email}
