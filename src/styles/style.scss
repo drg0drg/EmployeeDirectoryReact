@@ -1,0 +1,21 @@
+
+@import "_mixins.scss";
+
+body {
+	margin: 0;
+  background-color:grey;
+  background-image: url(../img/corporate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  @include displayFlexColumn;
+}
+
+.App {
+  width: 100%;
+}
+
+
+
