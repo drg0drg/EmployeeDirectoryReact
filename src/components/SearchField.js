@@ -8,6 +8,7 @@ function SearchField({ searchUserInput }) {
 				name="search"
 				type="text"
 				onChange={searchUserInput}
+				placeholder="Search"
 			/>
 		</div>
 	);

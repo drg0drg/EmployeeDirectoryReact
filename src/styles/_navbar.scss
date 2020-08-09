@@ -1,0 +1,28 @@
+@import "_mixins.scss";
+
+.search-menu {
+  @include displayFlexColumn;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+
+.search-input {
+  margin-top: 2vh;
+}
+
+.inputSearch {
+  background-color: rgb(255, 255, 255, 0.6);
+  width: 915px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255, 0.6);
+  border: none;
+  width: 915px;
+}
+
+.dropdown-menu {
+  width: 915px;
+  text-align: center;
+    background-color: rgb(255, 255, 255, 0.6);
+}
