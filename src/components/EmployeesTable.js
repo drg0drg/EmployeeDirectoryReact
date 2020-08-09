@@ -1,8 +1,9 @@
 import React from "react";
 import Employee from "../components/Employee";
+import employeeSeeds from '../employeeSeeds/employeeSeeds.json';
 
 
-function EmployeesTable (employees) {
+function EmployeesTable ({employees}) {
   return (
     <table className = "employeesTable">
       <thead className = "tableHead">
