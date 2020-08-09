@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 
-function HomePage() {
+function MainPage() {
 	return (
 		<div>
 			<Header />
@@ -9,4 +9,4 @@ function HomePage() {
 	);
 }
 
-export default HomePage;
+export default MainPage;
