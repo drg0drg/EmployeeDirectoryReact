@@ -1,13 +1,21 @@
+
+@import "_mixins.scss";
+
 body {
 	margin: 0;
-  background-color:red;
+  background-color:grey;
   background-image: url(../img/corporate.jpg);
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  @include displayFlexColumn;
 }
 
-.employeesDiv {
-  background-color:red;
-
+.App {
+  width: 100%;
 }
+
 
 
