@@ -1,6 +1,6 @@
 import React from "react";
 
-function employeesTable () {
+function EmployeesTable () {
   return (
     <table className = "employeesTable">
       <th className = "tableHead">
@@ -14,4 +14,4 @@ function employeesTable () {
   )
 }
 
-export default employeesTable;
+export default EmployeesTable;
